@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width-device-width, initial-scale=1" />
+        <title>第一個網頁</title>
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content="第一個網頁的開發" />
+        <meta name="author" content="angusool" />
+        <base target="_blank" />
+
+        <style>
+        table,th,td{border-collapse: collapse; border: 1px solid blue }
+        th,td {padding: 0.25rem;} 
+        </style>
+    </head>    
+    <body>
+        <h1>你好</h1>
+        <p>大家好</p>
+        <p>jbvjhh,mnjkjjv</p> 
+        <h1>link</h1>
+        <p>jbvjhh,mnjkjjv</p>
+        <h1>image01</h1>
+        <img width="500" height="200" src="./圖片01.jpg" alt="圖片01">
+        <a href="https://www.youtube.com/">Youtube</a>
+        <a target="_blank" href="https://www.youtube.com/">Youtube</a>
+
+        <h2>下一項</h2>
+        <ol>
+            <li>第一個</li>
+            <li>第二個</li>
+        </ol>
+        </br>
+        <ul><li>第一項</li>
+            <li>第二項</li>
+         </ul>
+
+         <h2>表格</h2>
+         <table>
+            <thead>
+             <tr><th colspan="3">國家歷史</th></tr>
+             <tr>
+                 <th>Country</th>
+                 <th>Month</th>
+                 <th>Day</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>China</td>
+                <td>一月</td>
+                <td>7日</td>
+            </tr>
+            <tr>
+                <td>Usa</td>
+                <td>三月</td>
+                <td>16日</td>
+            </tr>
+            <tr>
+                <td>Hong Kong</td>
+                <td>六月</td>
+                <td>8日</td>
+            </tr>
+            </tbody>    
+        </table>
+        </br>
+        <form action="" method="">
+            <label for="name">姓名</label>
+            <input id="name" type="text" name="InputName" value="" placeholder="輸入你的名稱" />
+            </br>
+
+            <label for="gender">性別: </label>
+            <select name="gender" id="gender">
+                <option value="male">男</option>
+                <option value="female">女</option>
+                <option value="third">中間</option>
+            </select>
+            <br>
+            <label for="emal">Email Box:</label>
+            <input id="email" type="email" name="email" value="" required />
+        </br>
+            <input type="checkbox" id="checkbox" name="news" value="paper" checked>
+            <label for="checkbox">訂閱剪報</label> 
+            </br>
+            <label for="age">年齡: </label>
+            <input id="age" type="number" name="age" value="18" min="0" max="99" required />
+            </br>
+            <label for="password">密碼: </label>
+            <input type="password" name="" minlength="8" maxlength="15">
+            <br>
+            <label for="area">地方</label>
+            <input list="arealist" type="text" name="area" id="area" />
+            <datalist id="arealist">
+                <option value="香港站">香港</option>
+                <option value="藍田站">藍田</option>
+                <option value="北角站">北角</option>
+                <option value="坑口站">坑口</option>
+            </datalist>
+            <br>
+            <button type="submit">提交</button>
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
+
+
